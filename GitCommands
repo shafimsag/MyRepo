@@ -1,0 +1,66 @@
+git help
+
+git help rebase
+
+git config --global user.name "Shafi, Shaik"
+
+git config --global user.email "shafi.msag@gmail.com"
+
+git config h--list
+
+git status
+
+git add firstFile.txt
+
+git commit -m "comments"
+
+git log --author="Shafi, Shaik"
+
+
+============================================================
+configuring Notepad++
+---------------------------
+notepad++ .bash_profile
+
+alias npp='notepad++.exe -multiInst --nosession(add this command in notepad++)
+
+
+git config --global core.editor "\"D:\software\npp.7.7.bin.x64\notepad++.exe\"" 
+
+(configure the notepad++ in git)
+
+
+To check the configuration:
+---------------------------
+cat ~/.gitconfig
+
+git config --global --list
+
+git config --global -e(opens the config file in notepad++)
+
+
+============================================
+difference:
+
+git diff
+
+git diff --staged(difference between staging area and repository)
+
+================================================
+GitHub
+
+Create NewRepository in GitHub and the same repository in local machine.
+
+Sync the GitHub repository with local Repository
+git remote add origin "https://github.com/shafimsag/MyRepo.git"
+
+
+Get files from GitHub repo to local repo:
+git pull origin master
+git pull origin master --allow-unrelated-histories(If you get error)
+
+
+Send files to GitHub repo from local repo
+git push origin master
+
+
