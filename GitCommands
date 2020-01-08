@@ -63,4 +63,11 @@ git pull origin master --allow-unrelated-histories(If you get error)
 Send files to GitHub repo from local repo
 git push origin master
 
+====================================================
+Branch
+====================================================
+git branch dev1branch - to create a new branch
+git branch - to list the branches
+git checkout master -- to change the branch
+git push origin dev1branch -- to push the changes to the branch
 
