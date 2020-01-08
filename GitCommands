@@ -74,6 +74,14 @@ git checkout master -- to change the branch
 =======
 git push origin dev1branch -- to push the changes to the branch
 >>>>>>> dev1branch
+ 
+===========================================================
+Merge
+===========================================================
+go to the master branch.
+
+git merge origin branchName
+git push origin master
 
 ===========================================================
 Revert
